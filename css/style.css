@@ -592,40 +592,26 @@ p.sub_p {
     min-height: 300px;
 }
 
-.centrarvideo{
-    position: relative;
-	left: calc(30% - 255px);
-    width: 1200px;
-    height: 1000px;
+/* Para tener un ancho máximo debemos de establecer el width del DIV.delimitador */
+.delimitador{
+width:560px;
+margin:auto;
 }
-.botonvideo{
-    position: relative;
-	top: 380%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+.contenedor2{
+height:0px;
+width:100%;
+max-width:560px; /* Así establecemos el ancho máximo (si lo queremos) */
+padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+position:relative;
 }
-
-.botonvideo a {
-    padding: 0.8em 2em;
-    color: #FFF;
-    font-size: 0.8em;
-    letter-spacing: 1px;
-    background: #86CDE2;
-    border: 2px solid #86CDE2;
-    border-radius: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-
-.botonvideo a:hover {
-    background: #86CDE2;
-    border: 2px solid #86CDE2;
-    color: #222;
+/* El iframe se adapta al tamaño del contenedor */
+.video{
+position:absolute;
+height:100%;
+width:100%;
+top:0px;
+left:0px;
 }
 
 .services-breadcrumb {
