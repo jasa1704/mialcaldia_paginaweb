@@ -7,7 +7,7 @@ $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 
 // Datos para el correo
-$destinatario = "comercial@appsus.com";
+$destinatario = "comercial@appsus.co";
 $asunto = "Correo enviado desde la pagina web mialcaldia";
 
 $carta = "De: $nombre \n";

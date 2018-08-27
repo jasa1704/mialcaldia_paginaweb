@@ -4,7 +4,7 @@
 $correo = $_POST['correo'];
 
 // Datos para el correo
-$destinatario = "comercial@appsus.com";
+$destinatario = "comercial@appsus.co";
 $asunto = "Mensaje envio desde la pagina principal";
 
 $carta = "De: Usuario pagina principal";
