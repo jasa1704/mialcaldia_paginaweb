@@ -1,0 +1,16 @@
+.centrado{
+	margin:50px auto;
+	display:block;
+	}
+.imgFondo{
+	background-image: url("../assets/img/login/fondologin.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding: 50px;
+}
+.bordesImg{
+	border-radius: 2%;
+	box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.3);
+}
